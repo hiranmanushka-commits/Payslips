@@ -1,4 +1,4 @@
 @echo off
-cd /d "D:\Hiran\Formats\PayslipApp"
+cd /d "%~dp0"
 streamlit run app.py
 pause
